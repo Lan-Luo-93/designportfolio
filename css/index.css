@@ -454,7 +454,7 @@ img.gif {
 	background-color: #FF1D53;
 	opacity: 0.6;
 	z-index: -1;
-	-webkit-animation: drawHighlight .2s ease-in-out 0s infinite;
+	-webkit-animation: drawHighlight .2s ease-in-out 0s forwards;
 	animation: .2s drawHighlight ease-in forwards;
 	animation-delay: 1s;
   }  
