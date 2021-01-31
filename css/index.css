@@ -447,15 +447,17 @@ img.gif {
 	content: "";
 	position: absolute;
 	bottom: 12%;
-	right: 105%;
-	width: 0%;
+	/* right: 105%;
+	width: 0%; */
 	height: 40%; 
+	width: 225%;
+	right: -120%;
 	margin-left: -50%;
 	background-color: #FF1D53;
 	opacity: 0.6;
 	z-index: -1;
-	animation: .2s drawHighlight ease-in forwards;
-	animation-delay: 1s;
+	/* animation: .2s drawHighlight ease-in forwards;
+	animation-delay: 1s; */
   }  
 
 #section0 .logo {
@@ -1802,6 +1804,8 @@ border-color: transparent transparent transparent lightgray;
 
 	
 	}
+
+	
 
 
 	/* #section0 h2 {
