@@ -472,7 +472,7 @@ img.gif {
 
   #frontPageHeadingWrapper{
 	font-size: 68px;
-	font-family: 'CircularStd-Black';
+	font-family: 'CircularStd-Black', 'CircularStd-Medium', sans-serif;;
   }
 
   #frontPageHeading {
@@ -530,7 +530,7 @@ img.gif {
 	opacity: 0;
 	animation: .5s swift-up ease-out forwards, .5s fade-in ease-out forwards;
 	animation-delay: .8s;
-	font-family: 'Akkurat-Light';
+	font-family: 'Akkurat-Light', 'Source Sans Pro', sans-serif;
 }
   
   @keyframes swift-up {
