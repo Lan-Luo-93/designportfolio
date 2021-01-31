@@ -454,8 +454,9 @@ img.gif {
 	background-color: #FF1D53;
 	opacity: 0.6;
 	z-index: -1;
-	-webkit-animation: .2s drawHighlight ease-in forwards;
-	-webkit-animation-delay: 1s;
+	-webkit-animation: keyarm .2s ease-in-out 0s infinite;
+	/* animation: .2s drawHighlight ease-in forwards; */
+	animation-delay: 1s;
   }  
 
 #section0 .logo {
